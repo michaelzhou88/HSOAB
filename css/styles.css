@@ -1,0 +1,68 @@
+/* Generally speaking follow the styling is roughly in the same order as its html elements and go from less specific to more as we go from top to bottom */
+/* This targets the entire website */
+body{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+  
+/* Headings */
+h1{
+font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.big-heading{
+font-family: "Montserrat-Black", sans-serif;
+font-size: 2.5rem;
+line-height: 1.5;
+}
+
+.sub-heading{
+color: #FFF;
+}
+
+#video{
+float: right;
+}
+
+/* Containers */
+.container-fluid{
+padding: 7% 15%;        /* 7% is applied to top and bottom, 15% is applied to left and right*/
+}
+
+/* Navigation Bar */
+/* Targeting a specific class use the . followed by its name  */
+
+.navbar{
+padding: 0 0 4.5rem;  /* Provides padding space to the top, left right and below the nav bar */
+}
+  
+.navbar-brand{
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+font-family: 'Montserrat-Light', sans-serif;
+}
+  
+/* Title Section */
+
+/* Hierarchical Selectors (#title is a parent, .container-fluid is a child) */
+/* This means padding is only applied for the container-fluid class that is inside the 'title' ID */
+#title .container-fluid {
+padding: 3% 15% 7%;
+text-align: left;
+}
+  
+/* Title Image  */
+.title-image{
+width: 60%;
+position: absolute;
+right: 30%;
+}
