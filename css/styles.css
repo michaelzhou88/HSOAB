@@ -35,6 +35,9 @@ h1 {
   color: #fff;
 }
 
+.white-section {
+  background-color: #fff;
+}
 
 /* Navigation Bar */
 /* Targeting a specific class use the . followed by its name  */
@@ -58,6 +61,19 @@ h1 {
   font-family: 'Montserrat-Light', sans-serif;
 }
 
+/* Features Section */
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 4.5%;
+}
+
+.icon, #tshirt {
+  color: #ef8172;
+  margin-bottom: 1rem;  /* Gives a bit of space below the icons */
+}
 
 /* Title Section */
 
