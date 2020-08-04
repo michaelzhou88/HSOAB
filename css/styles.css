@@ -75,6 +75,11 @@ h1 {
   margin-bottom: 1rem;  /* Gives a bit of space below the icons */
 }
 
+/* When icon is in hover state  */
+.icon:hover, #tshirt:hover {
+  color: #FF2F03;
+}
+
 /* Title Section */
 
 /* Hierarchical Selectors (#title is a parent, .container-fluid is a child) */
