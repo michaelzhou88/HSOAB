@@ -90,6 +90,11 @@ h1 {
 }
 
 /* Testimonial Section */
+#testimonial-intro{
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
 .twitter-tweet{
   padding: 10px;
 }
