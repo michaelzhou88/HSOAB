@@ -75,7 +75,7 @@ h1 {
   margin-bottom: 1rem;  /* Gives a bit of space below the icons */
 }
 
-/* When icon is in hover state  */
+/* When the icons is in hover state  */
 .icon:hover, #tshirt:hover {
   color: #FF2F03;
 }
@@ -88,4 +88,8 @@ h1 {
   padding: 3% 15% 7%;
   text-align: left;
 }
-  
+
+/* Testimonial Section */
+.twitter-tweet{
+  padding: 10px;
+}
