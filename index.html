@@ -28,9 +28,9 @@
     <!-- Adding a unique container tag to help pad out elements with structure -->
     <div class="container-fluid">
 
-      <!-- Nav Bar -->
+      <!-- OG Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark">
 
         <img src="images/logo-img.png" alt="logo-image"/>
 
@@ -51,26 +51,65 @@
             </li>
           </ul>
         </div>
-    </nav>
+    </nav> -->
+
+    <!-- New Nav Bar -->
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2 d-none d-md-inline-block" href="#">T-Shirts</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Sweatshirts/Jumpers</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Childrenswear</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Headwear</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Scarfs</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Pin Badges</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Socks</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Books</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Delivery</a>
+    </div>
+  </nav>
 
     <!-- Title -->
 
       <div class="row">
         <!-- lg-6 means anything on laptop/desktop size will take up 50% (6 units out of 12) of the screen  -->
         <!-- Anything else smaller i.e. tablets/smartphones will take up 100% of the screen by default -->
-        <div class="col-lg-6">
+        <div id="About" class="col-lg-6">
           <h1 class="big-heading">Welcome to Hat Scarf or a Badge</h1>
           <p class="sub-heading">We are an independent outlet based in Anfield stocking a range of Our Own Unique designs and Limited edition T-shirts, Hats, Scarfs and Badges.</p>
           <p class="sub-heading">All our T-shirts are unofficial merchandise. We aim to offer a different option to the official LFC Merchandise and we are proud to have had some past and present LFC players and managers as well as some of the citys best boxers, TV personalties and musicians wearing our T-shirts. </p>
           <p class="sub-heading">But the best part is when we see Liverpool FC supporters at home and away in our T-shirts.</p>
         </div>
-        <!-- Separate divs for (h1 + paragraphs) and another for a video  -->
+        <!-- Separate divs for (h1 + paragraphs) and embedded tweet -->
         <div class="col-lg-6">
-          <iframe id="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/e9Vc_WGgF2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+          <img class="title-image" src="images/store.png">
+          <!-- <blockquote class="twitter-tweet align cen"><p lang="en" dir="ltr">Congratulations To the Manager of the Year <a href="https://twitter.com/LFC?ref_src=twsrc%5Etfw">@LFC</a> <a href="https://twitter.com/hatscarforabadg?ref_src=twsrc%5Etfw">@hatscarforabadg</a> <a href="https://t.co/GuMP9WZeKc">pic.twitter.com/GuMP9WZeKc</a></p>&mdash; Hat scarf or a badge (@hatscarforabadg) <a href="https://twitter.com/hatscarforabadg/status/1287989874319151104?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
         </div>
       </div>
     </div>
   </section>
+
+
+    <!-- Photo Gallery -->
+
+  <section class="white-section" id="press">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col lg-4">
+          <img class="pictures" src="images/klopp.png" alt="klopp-img">
+        </div>
+        <div class="feature-box col lg-4">
+          <img class="pictures" src="images/carragher.png" alt="carra-img">
+        </div>
+        <div class="feature-box col lg-4">
+          <img class="pictures" src="images/petermoore.png" alt="petermoore-img">
+        </div>
+      </div>
+    </div> 
+      
+      
+  
+    </section>
+
 
     <!-- Features -->
     
@@ -98,7 +137,8 @@
       </div>
     </section>
 
-
+  
+  
   <!-- Testimonials -->
 
   <section class="colored-section" id="testimonials">
@@ -132,14 +172,7 @@
 
   </section>
 
-  <!-- Press -->
-
-  <section class="colored-section" id="press">
-    <img class="press-logo" src="images/redmentv.png" alt="taw-logo">
-    <img class="press-logo" src="images/liverpoolecho.png" alt="redmentv-logo">
-    <img class="press-logo" src="images/TAW.png" alt="liverpoolecho-logo">
-
-  </section>
+  
 
   <!-- Size Guide -->
 
@@ -150,7 +183,7 @@
       <h2 class="section-heading">Size Guide</h2>
     </div>
     <div>
-      <table class="table table-hover table-dark">
+      <table class="table table-hover table-light">
         <thead>
           <tr>
             <th scope="col">Size:</th>
@@ -176,6 +209,9 @@
     <div>
       <p> Should you require any more information  on any particular item, please do not hesitate to get in touch with us. We have a number of items not listed on our website (for various reasons, usually that we have not got round to listing it on our website yet), so anything you don't see listed, there's no harm in asking if we have it...</p>
     </div>
+    <div class="col-lg-6">
+      <iframe id="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/e9Vc_WGgF2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+    </div>
   </section>
 
   <!-- Call to Action -->
@@ -193,10 +229,6 @@
   <!-- Footer -->
 
   <footer class="white-section" id="footer">
-    <div>
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F540496599301200%2Fphotos%2Fa.897726123578244%2F3481609635189867%2F%3Ftype%3D3&width=500" width="500" height="502" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-      <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Congratulations To the Manager of the Year <a href="https://twitter.com/LFC?ref_src=twsrc%5Etfw">@LFC</a> <a href="https://twitter.com/hatscarforabadg?ref_src=twsrc%5Etfw">@hatscarforabadg</a> <a href="https://t.co/GuMP9WZeKc">pic.twitter.com/GuMP9WZeKc</a></p>&mdash; Hat scarf or a badge (@hatscarforabadg) <a href="https://twitter.com/hatscarforabadg/status/1287989874319151104?ref_src=twsrc%5Etfw">July 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
     <div class="container-fluid">
       <a href="https://www.facebook.com/pages/category/Shopping---Retail/Hat-Scarf-Or-A-Badge-540496599301200/">
       <i class="fab fa-facebook-f"></i>
