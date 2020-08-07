@@ -92,6 +92,11 @@ h1 {
   color: #fff;
 }
 
+#brand-logo {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Features Section */
 .feature-title {
   font-size: 1.5rem;
