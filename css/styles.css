@@ -60,7 +60,7 @@ h1 {
 } */
 
 .colored-section {
-  background-color: #FF2F03;  
+  background-color: #d00000;  
   
   /* color: #fff; */
 }
@@ -127,8 +127,38 @@ h1 {
 }
 
 /* Testimonial Section */
+/* #testimonial-carousel {
+  width: auto;
+} */
+
 #testimonial-intro{
   padding: 10px;
   font-size: 1.4rem;
 }
 
+.twitter-tweet{
+  display: block;
+  margin: 0 auto;
+  outline: 0 none;
+}
+
+/* Media Query - When our viewport is 1028px or smaller ... */
+@media (max-width: 1028px) {
+
+  #logo-image {
+    width: 40%;
+    height: 20%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  .py-2 d-none d-md-inline-block {
+    text-align: right;
+  }
+}
