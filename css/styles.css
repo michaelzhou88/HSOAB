@@ -156,9 +156,22 @@ h1 {
 
   .title-image {
     position: static;
+    width: 90%;
   }
 
   .py-2 d-none d-md-inline-block {
     text-align: right;
+  }
+
+  #video {
+    float: center;
+    width: 90%;
+  }
+
+  .twitter-tweet{
+    display: block;
+    margin: 0 auto;
+    outline: 0 none;
+    width: 90%;
   }
 }
